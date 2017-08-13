@@ -50,6 +50,12 @@ function updateCounts () {
     if (allDots[i].classList.contains('blue')) {
       totals.blue ++;
     }
+    if (allDots[i].classList.contains('green')) {
+      totals.green ++;
+    }
+    if (allDots[i].classList.contains('invisible')) {
+      totals.invisible ++;
+    }
   }
 
   // Once you've done the counting, this function will update the display
